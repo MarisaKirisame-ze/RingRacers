@@ -37,7 +37,7 @@ menuitem_t OPTIONS_Main[] =
 	{IT_STRING | IT_CALL, "Gameplay Options", "Modify game mechanics.",
 		NULL, {.routine = M_GameplayOptions}, 0, 0},
 
-	{IT_STRING | IT_CALL, "Server Options", "Update server settings.",
+	{IT_STRING | IT_CALL, "Xbox Live Options", "Update Xbox Live server settings.",
 		NULL, {.routine = M_ServerOptions}, 0, 0},
 
 	{IT_STRING | IT_SUBMENU, "Data Options", "Video recording, file saving, Discord status.",
