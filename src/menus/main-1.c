@@ -45,7 +45,7 @@ menuitem_t MainMenu[] =
 		{.routine = M_InitOptions}, 0, 0},
 
 	{IT_STRING | IT_CALL, "Quit",
-		"Exit \"Dr. Robotnik's Ring Racers\".", NULL,
+		"Exit the game and go back to the Xbox 360 Dashboard.", NULL,
 		{.routine = M_QuitSRB2}, 0, 0},
 };
 
@@ -109,7 +109,7 @@ void M_QuitSRB2(INT32 choice)
 
 		M_StartMessage(
 			"Quit Game",
-			"Are you sure you want to quit playing?\n",
+			"Are you sure you want to\nreturn to the Xbox Dashboard?\n",
 			&M_QuitResponse, MM_YESNO,
 			"Leave the game",
 			"No, I want to go back!"
